@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+}
+
+body{
+   font-family: 'Open Sans',serif;
+   margin: 0 0 0 0;
+   background-color: #e8e8e8;
+ }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  background-color: #e8e8e8;
+}
+
+table tr:hover {
+  background-color: #e2eff7;
+}
+
+table, thead, tbody {
+  border: 1px solid gray;
+}
+
+thead {
+  background-color: #BFBFBF;
+  font-size: 20px;
+}
+
+tbody{
+  background-color: #e8e8e8;
+}
+
+tr, td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.bullet {
+  padding-left: 20px !important;
+}
+
+#tablewrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.semicolon {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+ul li {
+  vertical-align: middle;
+}
+
+ul {
+  margin-bottom: 0px !important;
+}
+
+.fa-info-circle {
+  color: #337ab7;
+  font-size: 55px !important;
+}
+
+.fa-times-circle {
+  color: #b6101c;
+  font-size: 30px !important;
+  float: right;
+}
